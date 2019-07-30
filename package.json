@@ -1,0 +1,22 @@
+{
+  "name": "create-pc-starter-kit-cli",
+  "version": "1.0.0",
+  "description": "this is a project contain webpack4.0-react-(react-router-dom)-mobx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "starter-kit": "./bin/kit.js",
+    "starter-kit-init": "./bin/kit-init.js"
+  },
+  "author": "haiming.zhao",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.19.0",
+    "download-git-repo": "^2.0.0",
+    "inquirer": "^6.2.2",
+    "ora": "^3.2.0"
+  }
+}
