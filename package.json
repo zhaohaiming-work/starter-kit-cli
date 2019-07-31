@@ -8,7 +8,8 @@
   },
   "bin": {
     "starter-kit": "./bin/kit.js",
-    "starter-kit-init": "./bin/kit-init.js"
+    "starter-kit-init": "./bin/kit-init.js",
+    "starter-kit-del": "./bin/kit-del.js"
   },
   "author": "haiming.zhao",
   "license": "ISC",
@@ -16,7 +17,7 @@
     "chalk": "^2.4.2",
     "commander": "^2.19.0",
     "download-git-repo": "^2.0.0",
-    "inquirer": "^6.2.2",
+    "inquirer": "^6.5.0",
     "ora": "^3.2.0"
   }
 }
