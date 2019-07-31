@@ -7,9 +7,9 @@ yarn > 1.6.0
 
 ```
 
-yarn global add create-pc-starter-kit-cli
+yarn global add starter-kit-cli
 
-npm install  create-pc-starter-kit-cli -g
+npm install starter-kit-cli -g
 
 ```
 > 使用方法
