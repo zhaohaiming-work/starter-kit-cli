@@ -1,6 +1,6 @@
 {
   "name": "starter-kit-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "this is a project contain webpack4.0-react-(react-router-dom)-mobx",
   "main": "index.js",
   "scripts": {
