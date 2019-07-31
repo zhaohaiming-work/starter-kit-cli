@@ -1,5 +1,4 @@
 #!/usr/bin/env node
-
 const program = require('commander')
 const chalk = require('chalk')
 const ora = require('ora')
@@ -43,8 +42,8 @@ downloadTmpl.then(() => {
   spinner.succeed();
   console.log(chalk.green('\n Generation completed!'))
   console.log('\n To get started')
-  console.log(`\n    cd ${projectName} \n`)
-  console.log(`\n    yarn/npm install \n`)
+  console.log(`\n    cd ${projectName}`)
+  console.log(`\n    yarn/npm install`)
   console.log(`\n    yarn/npm start \n`)
 })
   .catch(err => {
